@@ -24,7 +24,7 @@ A complete command-line implementation of Tic-Tac-Toe built with Python using Ob
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
    ```bash
    git clone https://github.com/your-username/tic-tac-toe-python.git
    cd tic-tac-toe-python
@@ -36,7 +36,6 @@ Ensure you have Python 3.x installed
 
 Run the game:
 
- ```bash
  python tic_tac_toe.py
 Select game mode when prompted:
 
