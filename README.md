@@ -28,6 +28,8 @@ Clone the repository:
    ```bash
    git clone https://github.com/your-username/tic-tac-toe-python.git
    cd tic-tac-toe-python
+
+  ```bash
 Ensure you have Python 3.x installed
 
 # Tic-Tac-Toe Python Game
@@ -36,7 +38,9 @@ Ensure you have Python 3.x installed
 
 Run the game:
 
+ ```bash
  python tic_tac_toe.py
+ ```bash
 Select game mode when prompted:
 
 1 - Human vs Human
