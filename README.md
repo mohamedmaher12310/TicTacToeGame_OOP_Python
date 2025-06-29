@@ -36,8 +36,10 @@ Ensure you have Python 3.x installed
 
 Run the game:
 
-```bash
-python tic_tac_toe.py
+ ```bash
+ python tic_tac_toe.py
+
+
 
 Select game mode when prompted:
 
