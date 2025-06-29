@@ -30,35 +30,58 @@ A complete command-line implementation of Tic-Tac-Toe built with Python using Ob
    cd tic-tac-toe-python
 Ensure you have Python 3.x installed
 
-How to Play
+# Tic-Tac-Toe Python Game
+
+## How to Play
+
 Run the game:
 
-bash
+```bash
 python tic_tac_toe.py
+
 Select game mode when prompted:
 
-text
 1 - Human vs Human
 2 - Human vs Computer
-Players take turns entering numbers 1-9 corresponding to board positions:
 
-text
+Players take turns entering numbers 1-9 corresponding to board positions:
 | 1 | 2 | 3 |
 | 4 | 5 | 6 |
 | 7 | 8 | 9 |
+
 The game automatically ends when a player wins or the board is full.
 
-Code Structure
+## Code Structure
+
 The game is built using these main classes:
 
-Class	Description
-GameBoard	Manages game state and board logic
-Player	Abstract base class for players
-HumanPlayer	Handles human player input
-ComputerPlayer	Implements computer opponent
-GameEngine	Controls game flow and rules
+| Class | Description |
+|-------|-------------|
+| `GameBoard` | Manages game state, validates moves, and checks for wins/draws |
+| `Player` (ABC) | Abstract base class defining the player interface |
+| `HumanPlayer` | Handles human player input and move validation |
+| `ComputerPlayer` | Implements basic AI with random move selection |
+| `GameEngine` | Controls game flow, turn management, and mode selection |
+
+### Key Responsibilities:
+- **GameBoard**:
+  - Tracks current board state (`cells` array)
+  - Provides board visualization (`print_board()`)
+  - Validates moves (`is_valid_move()`)
+  - Checks win conditions (`check_wins()`)
+  - Detects draws (`is_draw()`)
+
+- **Player Classes**:
+  - `HumanPlayer`: Processes user input for moves
+  - `ComputerPlayer`: Generates random valid moves
+
+- **GameEngine**:
+  - Initializes game components
+  - Manages game loop
+  - Handles player switching
+  - Determines game end conditions
 Example Gameplay
-text
+
 Current board:
 | 1 | 2 | 3 |
 | 4 | 5 | 6 |
@@ -75,6 +98,7 @@ Computer chooses position 1
 | O | 2 | 3 |
 | 4 | X | 6 |
 | 7 | 8 | 9 |
+
 Customization
 You can easily modify the game:
 
@@ -90,15 +114,3 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Enjoy the game! For feature requests or bug reports, please open an issue.
-
-text
-
-This README includes:
-1. Project title and visual
-2. Key features with emojis
-3. Installation instructions
-4. Gameplay instructions
-5. Code structure documentation
-6. Example gameplay
-7. Customization tips
-8. License information
