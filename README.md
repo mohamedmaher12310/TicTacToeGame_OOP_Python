@@ -28,7 +28,7 @@ Clone the repository:
    ```bash
    git clone https://github.com/your-username/tic-tac-toe-python.git
    cd tic-tac-toe-python
-
+   ```
 
 
 
