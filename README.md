@@ -89,21 +89,22 @@ The game is built using these main classes:
 Example Gameplay
 
 Current board:
-| 1 | 2 | 3 |
-| 4 | 5 | 6 |
-| 7 | 8 | 9 |
+
+| 1 | 2 | 3 |  
+| 4 | 5 | 6 |  
+| 7 | 8 | 9 |  
 
 Player X, enter position (1-9): 5
 
-| 1 | 2 | 3 |
-| 4 | X | 6 |
-| 7 | 8 | 9 |
+| 1 | 2 | 3 |  
+| 4 | X | 6 |  
+| 7 | 8 | 9 |  
 
 Computer chooses position 1
 
-| O | 2 | 3 |
-| 4 | X | 6 |
-| 7 | 8 | 9 |
+| O | 2 | 3 |  
+| 4 | X | 6 |  
+| 7 | 8 | 9 |  
 
 Customization
 You can easily modify the game:
