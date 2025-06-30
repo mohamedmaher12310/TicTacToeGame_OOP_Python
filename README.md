@@ -108,7 +108,7 @@ Computer chooses position 1
 
 
 ## Customization:  
-You can easily modify the game:
+You can easily modify the game  
 
 Change player symbols by editing the symbol attributes
 
