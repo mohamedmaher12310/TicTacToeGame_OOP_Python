@@ -106,7 +106,8 @@ Computer chooses position 1
 | 4 | X | 6 |  
 | 7 | 8 | 9 |  
 
-##Customization:  
+
+## Customization:  
 You can easily modify the game:
 
 Change player symbols by editing the symbol attributes
