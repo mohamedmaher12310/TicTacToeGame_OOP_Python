@@ -44,6 +44,7 @@ Run the game:
 
  ```bash
  python tic_tac_toe.py
+ ```	
 Select game mode when prompted:
 
 1 - Human vs Human
